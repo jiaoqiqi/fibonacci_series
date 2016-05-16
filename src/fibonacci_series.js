@@ -5,7 +5,7 @@ function fibonacci_series(n) {
     var fibonacciNumers = [];
 
     fibonacciNumers[0] = 0;
-    fibonacciNumers[1] = 0;
+    fibonacciNumers[1] = 1;
 
     if (n === 0) {
         return fibonacciNumers[0];
