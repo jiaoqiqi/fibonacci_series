@@ -5,7 +5,7 @@ function fibonacci_series(n) {
     var fibonacciNumers = [];
 
     fibonacciNumers[0] = 0;
-    fibonacciNumers[i] = 0;
+    fibonacciNumers[1] = 0;
 
     if (n === 0) {
         return fibonacciNumers[0];
@@ -22,3 +22,4 @@ function fibonacci_series(n) {
 }
 
 module.exports = fibonacci_series;
+g
